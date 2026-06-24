@@ -66,6 +66,38 @@ Na imagem a seguir é possivel observar os melhores parâmetros obtidos no Tunin
   <img src="Imagens/Melhores parâmetros obtidos no Tuning.png" alt="OpenMontage" width="300">
 </p>
 
+***Prevendo os valores da partição Xteste*** <br/>
+No codigo é possivel observar o modelo_otimo(tuning) a prever os valores de ocupação com as variáveis preditoraspresentes na partição Xteste.
+
+```text
+resultado_arvoreDecisão=modelo_otimo.predict(Xteste)
+```
+
+***Importação da métrica F1 e o respetivo score*** <br/>
+Na imagem a baixo é possivel observar a importação da métrica f1_score e logo em seguida a respetiva  mplementação que foi usado os valores previstos pelo modelo_otimo(tuning), e os valores reais da variável yteste. 
+<p align="center">
+  <img src="Imagens/Score metrica F1.png" alt="OpenMontage" width="700">
+</p>
+
+***Matriz de confusão*** <br/>
+Na imagem a baixo é possivel observar a criação da matriz de confusão que serve para avaliar o grau de Precisão e Sensibilidade do nosso modelo ótimo. 
+<p align="center">
+  <img src="Imagens/Matriz de confusão.png" alt="OpenMontage" width="700">
+</p>
+
+***Prevendo os dados para o dataset não classificados***
+***Importar o dataset não classificados***
+No final foi fornecido um dataset com dados sem os valores se estão ocupado ou não e o objetivo é prever a ocupação. Na imagem a baixo é possivel observar a importação do mesmo.
+<p align="center">
+  <img src="Imagens/Dataset não classificados.png" alt="OpenMontage" width="700">
+</p>
+
+***Previsão com os dados não classificados***
+Na imagem a baixo é possivel observar o modelo_otimo a prever a ocupação com os dados do dataset não classificados, e é também criada uma tabela com id e os dados de ocupação previstos. É possivel também observar a tabela com o id e os valores de ocupação previstos. 
+<p align="center">
+  <img src="Imagens/Previsão com os dados não classificados.png" alt="OpenMontage" width="700">
+</p>
+
 ### Variáveis
 - Xtreino:
 - Xrest:
