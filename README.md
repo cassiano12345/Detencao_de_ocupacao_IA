@@ -98,8 +98,3 @@ Na imagem a baixo é possivel observar o modelo_otimo a prever a ocupação com 
   <img src="Imagens/Previsão com os dados não classificados.png" alt="OpenMontage" width="700">
 </p>
 
-### Variáveis
-- Xtreino:
-- Xrest:
-- ytreino:
-- yrest:
