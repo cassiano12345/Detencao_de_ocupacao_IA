@@ -63,7 +63,7 @@ Na imagem a baixo é possivel observar a procura do melhor modelo baseando-se no
 ***Melhores parâmetros obtidos no Tuning e o respetivo score*** <br/>
 Na imagem a seguir é possivel observar os melhores parâmetros obtidos no Tuning e o respetivo score.
 <p align="center">
-  <img src="Imagens/Melhores parâmetros obtidos no Tuning.png" alt="OpenMontage" width="500">
+  <img src="Imagens/Melhores parâmetros obtidos no Tuning.png" alt="OpenMontage" width="300">
 </p>
 
 ### Variáveis
