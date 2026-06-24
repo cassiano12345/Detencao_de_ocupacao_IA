@@ -30,13 +30,16 @@ Na imagem a baixo é possivel observar o grafico Heatmap.
   <img src="Imagens/Grafico pandas.png" alt="OpenMontage" width="700">
 </p>
 
-***Particionando os dados***
+***Particionando os dados*** <br/>
 Para particionar os dados foi usado o train_test_split, na imagem a baixo é possível observar a partições a serem criadas ondde foi dado 25% do dataset aos dados de teste e foi dado para o Random_state 1, e foi usado o stratify com a variável alvo de forma a mantes o equilíbrio entre os valores ocupados e não ocupados nas partições criadas. 
+```text
+Xtreino,Xrest,ytreino,yrest =train_test_split(data_file.drop("ocupado",axis=1),data_file[["ocupado"]],test_size=0.50, random_state=1,stratify=data_file.ocupado)
+```
 <p align="center">
   <img src="Imagens/Particionando a Tabela.png" alt="OpenMontage" width="700">
 </p>
 
-***Arvores de decisão***
+***Arvores de decisão*** <br/>
 Na imagem a baixo é possível observar a importação do algoritmo Arvores de decisão, que foi graças a esse algoritmo que permitiu criar um modelo com o melhor score. É possível também observar na imagem  o modelo a treinar com os dados de treino (Xtreino, e ytreino).
 <p align="center">
   <img src="Imagens/Arvores de decisão.png" alt="OpenMontage" width="700">
