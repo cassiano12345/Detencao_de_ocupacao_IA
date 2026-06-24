@@ -42,7 +42,29 @@ Na imagem a baixo é possível observar a importação do algoritmo Arvores de d
   <img src="Imagens/Arvores de decisão.png" alt="OpenMontage" width="700">
 </p>
 
-***Arvores de decisão***
+***Obtendo o score do modelo com os dados de teste*** <br/>
+Na imagem a baixo é possivel observar o score obtido com os dados de teste.
+<p align="center">
+  <img src="Imagens/score do modelo treinado.png" alt="OpenMontage" width="700">
+</p>
+
+***Criação da grelha de valores do GridSearchCV*** <br/>
+No codigo a baixo é possível observar a importação do GridSearchCV(Tuning) que serviu para procura do melhor modelo, e foram usados os hiperparâmetros: Profundidade máxima(max_depth), Amostras mínimas divididas(min_samples_split), Minimo de amostras de folha (min_samples_leaf). 
+```text
+grelha_valores={'criterion':['gini','entropy'],'max_depth':[2,3,4,5,10,20,30],"min_samples_split":range(1,20),"min_samples_leaf":range(1,15)}
+```
+***Treinando o modelo Tuning*** <br/>
+Na imagem a baixo é possivel observar a procura do melhor modelo baseando-se no modelo já criado com a Arvores de decisão e com os hiperparâmetros definidos anteriormente na grelha de valores, foi também fornecido 5 partições para a CV. 
+
+<p align="center">
+  <img src="Imagens/Treinando o modelo Tuning.png" alt="OpenMontage" width="700">
+</p>
+
+***Melhores parâmetros obtidos no Tuning e o respetivo score*** <br/>
+Na imagem a seguir é possivel observar os melhores parâmetros obtidos no Tuning e o respetivo score.
+<p align="center">
+  <img src="Imagens/Melhores parâmetros obtidos no Tuning.png" alt="OpenMontage" width="700">
+</p>
 
 ### Variáveis
 - Xtreino:
