@@ -85,14 +85,14 @@ Na imagem a baixo é possivel observar a criação da matriz de confusão que se
   <img src="Imagens/Matriz de confusão.png" alt="OpenMontage" width="700">
 </p>
 
-***Prevendo os dados para o dataset não classificados***
-***Importar o dataset não classificados***
+***Prevendo os dados para o dataset não classificados***<br/>
+***Importar o dataset não classificados***<br/>
 No final foi fornecido um dataset com dados sem os valores se estão ocupado ou não e o objetivo é prever a ocupação. Na imagem a baixo é possivel observar a importação do mesmo.
 <p align="center">
   <img src="Imagens/Dataset não classificados.png" alt="OpenMontage" width="700">
 </p>
 
-***Previsão com os dados não classificados***
+***Previsão com os dados não classificados***<br/>
 Na imagem a baixo é possivel observar o modelo_otimo a prever a ocupação com os dados do dataset não classificados, e é também criada uma tabela com id e os dados de ocupação previstos. É possivel também observar a tabela com o id e os valores de ocupação previstos. 
 <p align="center">
   <img src="Imagens/Previsão com os dados não classificados.png" alt="OpenMontage" width="700">
