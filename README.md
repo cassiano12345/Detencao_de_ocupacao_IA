@@ -18,12 +18,31 @@ Na imagem a baixo é possivel observar a tabela com os dados obtidos dos sensore
   <img src="Imagens/Dados dos sensores.png" alt="OpenMontage" width="700">
 </p>
 
+***Relação das variaveis independentes com a variável alvo*** <br/>
+Na imagem a baixo é possivel ver a relação das variáveis que contém os dados dos sensores com a variável ocupado.
+<p align="center">
+  <img src="Imagens/Relação entre variaveis.png" alt="OpenMontage" width="700">
+</p>
+
 ***Grafico Heatmap*** <br/>
 Na imagem a baixo é possivel observar o grafico Heatmap.
 <p align="center">
   <img src="Imagens/Grafico pandas.png" alt="OpenMontage" width="700">
 </p>
 
+***Particionando os dados***
+Para particionar os dados foi usado o train_test_split, na imagem a baixo é possível observar a partições a serem criadas ondde foi dado 25% do dataset aos dados de teste e foi dado para o Random_state 1, e foi usado o stratify com a variável alvo de forma a mantes o equilíbrio entre os valores ocupados e não ocupados nas partições criadas. 
+<p align="center">
+  <img src="Imagens/Particionando a Tabela.png" alt="OpenMontage" width="700">
+</p>
+
+***Arvores de decisão***
+Na imagem a baixo é possível observar a importação do algoritmo Arvores de decisão, que foi graças a esse algoritmo que permitiu criar um modelo com o melhor score. É possível também observar na imagem  o modelo a treinar com os dados de treino (Xtreino, e ytreino).
+<p align="center">
+  <img src="Imagens/Arvores de decisão.png" alt="OpenMontage" width="700">
+</p>
+
+***Arvores de decisão***
 
 ### Variáveis
 - Xtreino:
