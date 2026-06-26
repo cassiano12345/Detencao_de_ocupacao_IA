@@ -74,7 +74,7 @@ resultado_arvoreDecisão=modelo_otimo.predict(Xteste)
 ```
 
 ***Importação da métrica F1 e o respetivo score*** <br/>
-Na imagem a baixo é possivel observar a importação da métrica f1_score e logo em seguida a respetiva  mplementação que foi usado os valores previstos pelo modelo_otimo(tuning), e os valores reais da variável yteste. 
+Na imagem a baixo é possivel observar a importação da métrica f1_score e logo em seguida a respetiva  implementação que foi usado os valores previstos pelo modelo_otimo(tuning), e os valores reais da variável yteste. 
 <p align="center">
   <img src="Imagens/Score metrica F1.png" alt="OpenMontage" width="700">
 </p>
